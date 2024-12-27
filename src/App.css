@@ -314,6 +314,15 @@ input:checked+.slider:before {
   transform: translateX(26px);
 }
 
+/* Total Hours Container */
+.total-hours-container {
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
 /* === Responsive Design === */
 @media (max-width: 768px) {
   .wallet-container {

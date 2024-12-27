@@ -100,6 +100,11 @@ function App() {
     setExpandedNFT(expandedNFT === index ? null : index);
   };
 
+  // Calculate total CPE hours
+  const getTotalCPEHours = () => {
+    return nfts.reduce((total, nft) => total + nft.cpeHours, 0);
+  };
+
   return (
     <div className="App">
       <header className="app-header">
@@ -141,6 +146,10 @@ function App() {
                 </label>
                 <p>{viewMode === 'card' ? 'Card View' : 'List View'}</p>
               </div>
+            </div>
+
+            <div className="total-hours-container">
+              <h3>Total Hours: {getTotalCPEHours()}</h3>
             </div>
 
             {error && <p className="error-message">{error}</p>}
