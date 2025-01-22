@@ -5,6 +5,20 @@ body {
   font-family: 'Arial', sans-serif;
 }
 
+.brand-name {
+  background-color: #242343;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center everything vertically within the header */
+  align-items: center; /* Center everything horizontally */
+  height: 700px; /* Fixed height for demonstration */
+  margin-bottom: 20px; /* Add spacing between the header and the content */
+
+  position: 'relative'; /* Ensures child elements position relative to the header */
+  width: '100%';
+  padding: '20px';
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +40,8 @@ body {
 .wallet-container {
   display: flex;
   align-items: center;
+  justify-content: 'right';
+  position: relative;
   gap: 10px;
 }
 
@@ -378,4 +394,39 @@ input:checked+.slider:before {
   .nft-list-item .nft-card-content p strong {
     font-weight: bold;
   }
+}
+
+.brand-logo {
+  width: 460px;
+  height: 225px;
+  margin-top: 20px; /* Add spacing between the text and the logo */
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stack text vertically */
+  align-items: center; /* Center text horizontally */
+  justify-content: center;
+}
+
+p {
+  margin:30px 0; /* Add spacing between paragraphs */
+}
+
+p.biggest-font {
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+}
+
+p.big-font{
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+}
+
+p.mid-font{
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
 }
