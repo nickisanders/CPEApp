@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { ethers, BrowserProvider, Contract } from 'ethers';
+import React, { useState, } from 'react';
+import {  BrowserProvider, Contract } from 'ethers';
 import abi from '../CPECertificateABI.json'; // Import the ABI of CPECertificate
 import '../App.css'; // Import the CSS file for DApp styles
 
@@ -86,10 +86,6 @@ function OldDashboard() {
       const provider = new BrowserProvider(window.ethereum);
       await fetchNFTs(account, provider);
     }
-  };
-
-  const toggleViewMode = () => {
-    setViewMode(viewMode === 'card' ? 'list' : 'card');
   };
 
   const handleSwitchChange = (event) => {

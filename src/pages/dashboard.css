@@ -10,7 +10,6 @@
   
   p {
     font-size: 16px;
-    margin-bottom: 20px;
   }
   
   .progress-container {
@@ -44,5 +43,30 @@
     line-height: 20px;
     white-space: nowrap;
     overflow: hidden;
+  }
+
+  .status-box{
+    flex: 1;
+    min-width: '300px';
+    padding-left: '40px' !important;
+    background-color: var(--primary-contrastText);
+    border-radius: '20px';
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .certificates-container{
+    background-color: var(--primary-contrastText);
+    margin-top: 10px;
+  }
+
+  p.certificates-container{    
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .uploadInput{
+    margin-top: '10px';
+    background-color: aquamarine;
   }
   

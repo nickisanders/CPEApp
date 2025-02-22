@@ -1,10 +1,7 @@
-html, body {
-    height: 100%;
-    margin: 0;
-  }
+
 
 .background{
-    background-color: #242343;
+    background-color: #414276;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

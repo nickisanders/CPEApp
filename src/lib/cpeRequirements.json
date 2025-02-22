@@ -1,0 +1,142 @@
+{
+  "States": {
+    "Utah": {
+      "CPA": {        
+        "requirements": [
+          {
+            "name": "Total Hours",
+            "value": 80
+          },
+          {
+            "name": "Audit",
+            "value": 20
+          },
+          {
+            "name": "Tax",
+            "value": 20
+          },
+          {
+            "name": "Technology",
+            "value": 20
+          },
+          {
+            "name": "Ethics",
+            "value": 4
+          },
+          {
+            "name": "Utah Laws and Rules",
+            "value": 1
+          }
+        ]
+      },
+      "Teacher": {
+        "requirements": [
+          {
+            "name": "Total Hours",
+            "value": 30
+          },
+          {
+            "name": "Subject Matter Hours",
+            "value": 15
+          },
+          {
+            "name": "Pedagogy Hours",
+            "value": 15
+          }
+        ]
+      }
+    },
+    "Colorado": {
+      "CPA": {        
+        "requirements": [
+          {
+            "name": "Total Hours",
+            "value": 80
+          },
+          {
+            "name": "Audit",
+            "value": 20
+          },
+          {
+            "name": "Tax",
+            "value": 20
+          },
+          {
+            "name": "Technology",
+            "value": 20
+          },
+          {
+            "name": "Ethics",
+            "value": 20
+          },
+          {
+            "name": "Utah Laws and Rules",
+            "value": 20
+          }
+        ]
+      },
+      "Teacher": {
+        "requirements": [
+          {
+            "name": "Total Hours",
+            "value": 30
+          },
+          {
+            "name": "Subject Matter Hours",
+            "value": 15
+          },
+          {
+            "name": "Pedagogy Hours",
+            "value": 15
+          }
+        ]
+      }
+    },
+    "Nevada": {
+      "CPA": {        
+        "requirements": [
+          {
+            "name": "Total Hours",
+            "value": 80
+          },
+          {
+            "name": "Audit",
+            "value": 20
+          },
+          {
+            "name": "Tax",
+            "value": 20
+          },
+          {
+            "name": "Technology",
+            "value": 20
+          },
+          {
+            "name": "Ethics",
+            "value": 20
+          },
+          {
+            "name": "Utah Laws and Rules",
+            "value": 20
+          }
+        ]
+      },
+      "Teacher": {
+        "requirements": [
+          {
+            "name": "Total Hours",
+            "value": 30
+          },
+          {
+            "name": "Subject Matter Hours",
+            "value": 15
+          },
+          {
+            "name": "Pedagogy Hours",
+            "value": 15
+          }
+        ]
+      }
+    }
+  }
+}

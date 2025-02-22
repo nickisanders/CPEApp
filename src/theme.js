@@ -17,7 +17,8 @@ const theme = createTheme({
       contrastText: '#0D7EE5', //Dodger Blue
     },
     background: {
-      default: '#242343',
+      // default: '#242343',
+      default: '#22253E',
     },
   },
   typography: {
