@@ -1,0 +1,72 @@
+.dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .progress-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .progress-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+    position: relative;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background-color: #4caf50;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .status-box{
+    flex: 1;
+    min-width: '300px';
+    padding-left: '40px' !important;
+    background-color: var(--primary-contrastText);
+    border-radius: '20px';
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .certificates-container{
+    background-color: var(--primary-contrastText);
+    margin-top: 10px;
+  }
+
+  p.certificates-container{    
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .uploadInput{
+    margin-top: '10px';
+    background-color: aquamarine;
+  }
+  

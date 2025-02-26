@@ -1,0 +1,28 @@
+.content-container {
+    background-color: #242343; /* Replace with your background color */
+    min-height: 100%;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .layout-container {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    min-height: 100vh; /* Ensures the layout fills the viewport height */
+    background-color: #1a1a1a; /* Background color for entire layout */
+  }
+  
+  .side-border {
+    background-color: #4b0082; /* Dark purple color */
+  }
+  
+  .content-area {
+    background-color: #fff; /* Central content area background color */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  

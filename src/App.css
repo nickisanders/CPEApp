@@ -1,12 +1,39 @@
 /* === General Styles === */
-body {
+html, body {
   background-color: #f5f5f5;
   color: #121212;
   font-family: 'Arial', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+.brand-name {
+  background-color: #242343;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center everything vertically within the header */
+  align-items: center; /* Center everything horizontally */
+  height: 700px; /* Fixed height for demonstration */
+  margin-bottom: 20px; /* Add spacing between the header and the content */
+
+  position: 'relative'; /* Ensures child elements position relative to the header */
+  width: '100%';
+  padding: '20px';
 }
 
 .App {
-  text-align: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  background-color: var(--background-default);
+  height: 100%;
+  min-height: 100vh;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 100px;
+  /* margin-top: 80px; */
+  position: relative;
 }
 
 .app-header {
@@ -26,6 +53,8 @@ body {
 .wallet-container {
   display: flex;
   align-items: center;
+  justify-content: 'right';
+  position: relative;
   gap: 10px;
 }
 
@@ -114,7 +143,7 @@ body {
   justify-content: flex-start;
   padding-left: 20px;
   margin-bottom: 20px;
-  background-color: #ffffff;
+  background-color: var(--primary-contrastText);
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -136,7 +165,7 @@ body {
   gap: 20px;
   justify-content: center;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: var(--primary-contrastText);
   border-radius: 12px;
 }
 
@@ -166,7 +195,7 @@ body {
 
 /* === NFT Card (Grid View) === */
 .nft-card {
-  background-color: #ffffff;
+  background-color: var(--primary-contrastText);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -221,10 +250,11 @@ body {
 .nft-list {
   list-style-type: none;
   padding: 0;
+  background-color: var(--primary-contrastText);
 }
 
 .nft-list-item {
-  background-color: #ffffff;
+  background-color: var(--primary-contrastText);
   padding: 15px;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -341,7 +371,7 @@ input:checked+.slider:before {
   /* === NFT List View (2-Column Layout) === */
   .nft-list-item {
     display: flex;
-    background-color: #ffffff;
+    background-color: var(--primary-contrastText);
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 10px;
@@ -378,4 +408,60 @@ input:checked+.slider:before {
   .nft-list-item .nft-card-content p strong {
     font-weight: bold;
   }
+}
+
+.brand-logo {
+  width: 460px;
+  height: 280px;
+  margin-top: 80px; /* Add spacing between the text and the logo */
+}
+
+
+
+
+
+p.biggest-font {
+  font-size: 100px;
+  font-weight: bold;
+  color: var(--primary-main);
+}
+
+p.big-font{
+  font-size: 80px;
+  font-weight: bold;
+  color: var(--primary-main);
+}
+
+p.mid-font{
+  font-size: 60px;
+  font-weight: bold;
+  color: var(--primary-main);
+}
+
+p.smallMid-font{
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--primary-main);
+}
+
+.container{
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* Stack text vertically */
+}
+
+.content-box{
+  flex: 1;
+  min-width: '300px';
+  padding-left: '40px';
+  background-color: var(--primary-contrastText);
+  border-radius: '20px';
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main{
+  background-color: var(--primary-contrastText); 
+  color: var(--primary-main);    
+  height: 100vh;
 }
